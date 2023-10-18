@@ -1,0 +1,1 @@
+<?php echo apply_filters( 'lilacbeauty_footer_get_template_part', lilacbeauty_get_template_part( 'footer', 'templates/footer', '', array() ) ); ?>

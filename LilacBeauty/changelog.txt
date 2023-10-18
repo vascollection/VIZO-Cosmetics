@@ -1,0 +1,19 @@
+*** LilacBeauty WordPress Theme Changelog ***
+
+Version 1.0.3
+    * Compatible: Latest elementor version for elementor addon
+    * Compatible: Latest WooCommerce version for shop modules
+    * Compatible: Latest WordPress version
+    * Fixed: Pro plugin installation issue fixed
+
+Version 1.0.2
+
+    * RTL demo content added and updated
+
+Version 1.0.1
+
+    * Demo content added
+
+Version 1.0.0
+
+    * First release!

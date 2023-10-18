@@ -1,0 +1,2 @@
+<?php
+echo apply_filters( 'lilacbeauty_breadcrumb_get_template_part', lilacbeauty_get_template_part( 'breadcrumb', 'templates/title-content', '',lilacbeauty_breadcrumb_params() ), lilacbeauty_get_page_id() ); ?>

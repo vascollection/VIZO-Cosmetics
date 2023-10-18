@@ -1,0 +1,145 @@
+.wpcf7-form.custom-contact-form > p {
+  display: grid;
+  grid-template-columns: 1fr !important;
+}
+
+/* Product list Style */
+.featured-tag {
+  display: none;
+}
+
+.product-buttons-wrapper {
+  display: none !important;
+}
+
+/* kato ni mo pop up sa ilalom nga annoying */
+.suggested-product-list {
+  display: none;
+}
+
+/* section on about page */
+.elementor-element-e9195a1 {
+  display: none;
+}
+
+.gform-theme--foundation .gfield .ginput_password.large, .gform-theme--foundation .gfield input.large, .gform-theme--foundation .gfield select.large {
+  height: 50px;
+  background-color: unset;
+  border-radius: unset;
+}
+
+.gform-theme--foundation .gfield textarea.large {
+  height: 50px;
+  background-color: unset;
+  border-radius: unset;
+}
+
+.gform-theme.gform-theme--framework.gform_wrapper .button:where(:not(.gform-theme-no-framework):not(.gform-theme__disable):not(.gform-theme__disable *):not(.gform-theme__disable-framework):not(.gform-theme__disable-framework *)), .gform-theme.gform-theme--framework.gform_wrapper .gform-theme-button:where(:not(.gform-theme-no-framework):not(.gform-theme__disable):not(.gform-theme__disable *):not(.gform-theme__disable-framework):not(.gform-theme__disable-framework *)), .gform-theme.gform-theme--framework.gform_wrapper :where(:not(.mce-splitbtn)) > button:not([id*=mceu_]):not(.mce-open):where(:not(.gform-theme-no-framework):not(.gform-theme__disable):not(.gform-theme__disable *):not(.gform-theme__disable-framework):not(.gform-theme__disable-framework *)), .gform-theme.gform-theme--framework.gform_wrapper button.button:where(:not(.gform-theme-no-framework):not(.gform-theme__disable):not(.gform-theme__disable *):not(.gform-theme__disable-framework):not(.gform-theme__disable-framework *)), .gform-theme.gform-theme--framework.gform_wrapper input:is([type=submit], [type=button], [type=reset]).button:where(:not(.gform-theme-no-framework):not(.gform-theme__disable):not(.gform-theme__disable *):not(.gform-theme__disable-framework):not(.gform-theme__disable-framework *)), .gform-theme.gform-theme--framework.gform_wrapper input:is([type=submit], [type=button], [type=reset]):where(:not(.gform-theme-no-framework):not(.gform-theme__disable):not(.gform-theme__disable *):not(.gform-theme__disable-framework):not(.gform-theme__disable-framework *)), .gform-theme.gform-theme--framework.gform_wrapper input[type=submit].button.gform_button:where(:not(.gform-theme-no-framework):not(.gform-theme__disable):not(.gform-theme__disable *):not(.gform-theme__disable-framework):not(.gform-theme__disable-framework *)) {
+  background-color: var(--e-global-color-accent);
+  color: var(--wp--preset--color--secondary);
+  text-transform: uppercase;
+  padding: 12px 32px;
+  border-radius: unset;
+}
+
+.elementor-868 .elementor-element.elementor-element-71cd849 > .elementor-widget-container ul li {
+  width: 100%;
+}
+
+.woocommerce ul.products li.product div .product-wrapper .product-details .product-rating-wrapper {
+  display: none;
+}
+.woocommerce ul.products li.product div .product-wrapper .product-details .product-price {
+  display: none;
+}
+
+.product-template-default .summary .single_variation_wrap {
+  display: none !important;
+}
+.product-template-default .summary .yith-wcwl-add-to-wishlist {
+  display: none !important;
+}
+.product-template-default .summary .compare {
+  display: none !important;
+}
+.product-template-default .summary .sku_wrapper {
+  display: none !important;
+}
+.product-template-default .summary .cart .quantity {
+  display: none !important;
+}
+.product-template-default .summary .cart .single_add_to_cart_button {
+  display: none !important;
+}
+.product-template-default .summary .cart .variations li {
+  background-color: var(--wp--preset--color--body-bg);
+  color: var(--wp--preset--color--secondary);
+  text-transform: uppercase;
+  padding: 12px 32px;
+  border-radius: unset;
+}
+.product-template-default .summary .cart .selected {
+  background-color: var(--e-global-color-accent) !important;
+}
+
+.woocommerce div.product .wdt-product-tabs .woocommerce-tabs ul.tabs li:last-child {
+  display: none !important;
+}
+
+.wdt-testimonial-wrapper .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+.wdt-testimonial-wrapper .swiper-slide .wdt-content-item {
+  max-width: 920px;
+}
+@media (max-width: 1540px) {
+  .wdt-testimonial-wrapper .swiper-slide {
+    opacity: 0;
+  }
+  .wdt-testimonial-wrapper .swiper-slide-active {
+    opacity: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wdt-carousel-arrow-pagination {
+    opacity: 15%;
+  }
+}
+.wdt-simple-style.wdt-post-entry .blog-entry > div.entry-thumb {
+  max-height: clamp(11.875rem, 4.7172rem + 11.1732vw, 18.125rem);
+}
+
+.commententries {
+  display: none !important;
+}
+
+.woocommerce-shop .products .wdt-col-lg-4 {
+  width: 33.333%;
+  padding: 0 14px;
+}
+.woocommerce-shop .products :last-child {
+  float: left !important;
+}
+
+.wdt-col-lg-3, .elementor .elementor-section .elementor-column.wdt-col-lg-3 {
+  width: 25% !important;
+}
+
+.woocommerce ul.products li.product .product-details .product-title h5 a:not(:hover) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+}
+
+.woocommerce ul.products:not(.swiper-wrapper) li.product {
+  display: block !important;
+}
+
+.elementor-products-wrapper-widget .elementor-widget-wdt-shop-products {
+  width: 100% !important;
+}/*# sourceMappingURL=style.css.map */
