@@ -136,7 +136,7 @@ $total_pages = $query->max_num_pages;
                 target="_blank"
                 title="<?php get_the_title()?>"
                 class="wdt-button"
-                >Read More<span
+                >View Catalog<span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"

@@ -142,4 +142,15 @@
 
 .elementor-products-wrapper-widget .elementor-widget-wdt-shop-products {
   width: 100% !important;
+}
+
+.page-id-537 .header-top-absolute::before {
+  content: url("https://dev.websiteprojectupdates.com/vizo/wp-content/uploads/2023/10/Vizo-Catalog-Banner.jpg");
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
